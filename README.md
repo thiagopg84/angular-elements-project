@@ -18,7 +18,7 @@ npx @angular/cli@17 new angular-elements-project --no-standalone
 + "builder": "@angular-devkit/build-angular:browser-esbuild",
 ```
 
-3) Alterar a linha `browser`` no `angular.json`:
+3) Alterar a linha `browser` no `angular.json`:
 ```diff
 -"browser": "src/main.ts",
 +"main": "src/main.ts",
