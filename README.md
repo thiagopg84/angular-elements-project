@@ -93,6 +93,8 @@ ng build --output-hashing none
     <link href="http://localhost:4200/styles.css" rel="stylesheet"> <!-- caso exista um arquivo de estilo global -->
 ```
 
+### OBS: Os arquivos JS precisam ser linkados com `type="module"`.
+
 3) Feito isso, é necessário chamar, no template do seu componente AngularJS, a tag que foi definida no passo 6:
 ```javascript
 angular.module('myApp')
