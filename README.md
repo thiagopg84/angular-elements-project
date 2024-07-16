@@ -29,7 +29,7 @@ npx @angular/cli@17 new angular-elements-project --no-standalone
 npm i @angular/elements@17
 ```
 
-5) Criar um componente utilizando `ViewEncapsulation.ShadowDom` no modo de encapsulação:
+5) Criar um componente utilizando `ViewEncapsulation.ShadowDom` no modo de encapsulamento:
 ```typescript
 @Component({
   selector: 'app-example',
